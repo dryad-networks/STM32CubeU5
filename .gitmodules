@@ -1,11 +1,3 @@
-[submodule "Drivers/STM32U5xx_HAL_Driver"]
-	path = Drivers/STM32U5xx_HAL_Driver
-	url = https://github.com/STMicroelectronics/stm32u5xx_hal_driver.git
-	branch = main
-[submodule "Drivers/CMSIS/Device/ST/STM32U5xx"]
-	path = Drivers/CMSIS/Device/ST/STM32U5xx
-	url = https://github.com/STMicroelectronics/cmsis_device_u5.git
-	branch = main
 [submodule "Drivers/BSP/B-U585I-IOT02A"]
 	path = Drivers/BSP/B-U585I-IOT02A
 	url = https://github.com/STMicroelectronics/b-u585i-iot02a-bsp.git
@@ -26,3 +18,9 @@
 	path = Drivers/BSP/STM32U5xx_Nucleo
 	url = https://github.com/STMicroelectronics/stm32u5xx-nucleo-bsp.git
 	branch = main
+[submodule "Drivers/CMSIS/Device/ST/STM32U5xx"]
+	path = Drivers/CMSIS/Device/ST/STM32U5xx
+	url = git@github.com:dryad-networks/cmsis_device_u5.git
+[submodule "Drivers/STM32U5xx_HAL_Driver"]
+	path = Drivers/STM32U5xx_HAL_Driver
+	url = git@github.com:dryad-networks/stm32u5xx_hal_driver.git
